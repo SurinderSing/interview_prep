@@ -8,10 +8,6 @@
 [![React](https://img.shields.io/badge/React-18+-blue?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 [![Interview Prep](https://img.shields.io/badge/Interview-Ready-green?style=for-the-badge&logo=leetcode&logoColor=white)]()
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/mdazfar2/Cool-GIFs-For-GitHub/master/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="200" alt="coding" />
-</p>
-
 A curated collection of solutions to common coding interview questions, implemented in **JavaScript**, alongside essential theory notes for **React** and **Next.js**.
 
 [Explore Questions](#-coding-challenges) • [Read Theory](#-theory--concepts) • [Contribute](#-contributing)

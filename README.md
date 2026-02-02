@@ -9,7 +9,7 @@
 [![Interview Prep](https://img.shields.io/badge/Interview-Ready-green?style=for-the-badge&logo=leetcode&logoColor=white)]()
 
 <p align="center">
-  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdW54bnZtcXF6eGRsMXV6bmFwc3E0bXZ6bzh4b3MxZ2o1Z2o1Z2o1ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/L1R1TVThqcePa/giphy.gif" width="200" alt="coding" />
+  <img src="https://user-images.githubusercontent.com/mdazfar2/Cool-GIFs-For-GitHub/master/212749447-bfb7e725-6987-49d9-ae85-2015e3e7cc41.gif" width="200" alt="coding" />
 </p>
 
 A curated collection of solutions to common coding interview questions, implemented in **JavaScript**, alongside essential theory notes for **React** and **Next.js**.

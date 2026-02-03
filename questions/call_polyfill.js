@@ -8,12 +8,20 @@ Function.prototype.callPolyfill = function (context, ...args) {
 const obj = {
     name: "surinder",
     age: 25,
+    call: function () {
+        console.log(this.name);
+    }
+
 }
 
-function fn(name, age) {
-    console.log(this.name);
-    console.log(name);
-    console.log(age);
-}
+let inner = obj.call
 
-fn.callPolyfill(obj, "name", "43");
+inner.callPolyfill(obj)
+
+// function fn(name, age) {
+//     console.log(this.name);
+//     console.log(name);
+//     console.log(age);
+// }
+
+// fn.callPolyfill(obj, "name", "43");

@@ -1,6 +1,8 @@
 Function.prototype.callPolyfill = function (context, ...args) {
     context.fn = this;
-    return context.fn(...args)
+    const result = context.fn(...args)
+    delete context.fn
+    return result
 }
 
 const obj = {

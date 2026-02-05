@@ -1,21 +1,53 @@
 // kadane's algo::
 
+// const array = [-2, 1, -3, -3, -5, 4, -6, 2, 1, -5, 4];
 const array = [-2, 1, -3, 4, -1, 2, 1, -5, 4];
 // const array = [5, 4, -1, 7, 8];
+// const array = [-3,-5];
 // const array = [-1];
 
+// Wrong implementation::
+// const maxSubArr = (arr) => {
+//     let sum = arr[0];
+//     let maxSum = arr[0];
+//     let start = 0, end = 0;
+//     for (let i = 1; i < arr.length; i++) {
+//         sum += arr[i];
+//         if (sum < 0) {
+//             sum = 0;
+//             start = i + 1
+//         }
+//         if (sum > maxSum) {
+//             maxSum = sum;
+//             end = i + 1
+//         }
+//     }
+//     return [maxSum, arr.slice(start, end)];
+// };
+
+// Correct implementation::
 const maxSubArr = (arr) => {
-    let sum = arr[0];
     let maxSum = arr[0];
+    let currSum = arr[0];
+
+    let start = 0, tempStart = 0, end = 0;
+
     for (let i = 1; i < arr.length; i++) {
-        sum += arr[i];
-        if (sum > maxSum) {
-            maxSum = sum;
+        if (arr[i] > currSum + arr[i]) {
+            currSum = arr[i];
+            tempStart = i;
+        } else {
+            currSum += arr[i];
         }
-        if (sum < 0) {
-            sum = 0;
+
+        if (currSum > maxSum) {
+            maxSum = currSum;
+            start = tempStart;
+            end = i;
         }
     }
-    return maxSum;
+
+    return [maxSum, arr.slice(start, end + 1)];
 };
+
 console.log(maxSubArr(array));

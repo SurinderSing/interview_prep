@@ -20,6 +20,6 @@ const removeDuplicates = (ar) => {
     return result
 }
 
-const arr = [1, 2, 2, 3, 1, 4]
+const arr = [1, "d", "d", "r", 2, 2, 3, 1, 4]
 
 console.log(removeDuplicates(arr))

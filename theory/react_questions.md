@@ -1,5 +1,13 @@
 # React.js Questions
 
+- why pure functions are importent in react?
+
+- what is react concurrent mode?
+
+- what is hydration?
+
+- what is waterfall problem in react?
+
 - what is error boundary in react?
 
 - do error boundary uses life cycle method and how to create error boundary?

@@ -30,3 +30,7 @@ const secLargestNum = (arr) => {
     return secLargest;
 }
 console.log(secLargestNum([2, 4, 8, 4, 42, 42, 2, 9, 2, 3, 2, 5]));
+
+// const shortestElement = arr.reduce((a, b) =>
+//     a.length <= b.length ? a : b
+// );

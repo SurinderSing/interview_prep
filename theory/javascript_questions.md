@@ -4,6 +4,8 @@
 
 - what is event delegation?
 
+- what are promises in js?
+
 - Difference between debounce and throttle?
 
 - Why is JSON used over JS objects?

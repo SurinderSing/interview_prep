@@ -1,5 +1,7 @@
 # React.js Questions
 
+- what is custom hook?
+
 - why pure functions are importent in react?
 
 - what is react concurrent mode?

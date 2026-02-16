@@ -14,6 +14,7 @@ let input = 'araasssddsdemme';
 //     }
 //     return Object.fromEntries(charMap.entries())
 // }
+
 function charFrequencyShort(str) {
     let charMap = new Map();
     for (let i = 0; i < str.length; i++) {

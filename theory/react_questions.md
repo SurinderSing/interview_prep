@@ -36,6 +36,8 @@
 
 - differece between useEffect and useLayoutEffect?
 
+- what are the optimisation techniques we still need to implement after react version 18?
+
 ## Bonus "Trap" Questions (Interviewers Love These)
 
 - Can useEffect run before render?

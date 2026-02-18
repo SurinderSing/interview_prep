@@ -1,8 +1,12 @@
 # Next.js Questions
 
+- explain server side rendering and client side rendering. SSR vs CSR?
+
 - what is parallel route in Next?
 
 - What are Intercepting Routes?
+
+- how to use getStaticProps and getServerSideProps? and why ther are need?
 
 - what we are using in next 13 above for getStaticProps and getServerSideProps.
 

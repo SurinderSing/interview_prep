@@ -16,6 +16,8 @@
 
 - what is SSR, SSG, ISR, and CSR?
 
+- what are front end proxies in Next?
+
 
 ## Bonus "Trap" Questions (Interviewers Love These)
 

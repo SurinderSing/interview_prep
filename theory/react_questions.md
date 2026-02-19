@@ -20,8 +20,6 @@
 
 - what is useImperative hook?
 
-- what are front end proxies in react?
-
 - what is state mutation in react?
 
 - how can we implement life cycle methods in functional component in react?

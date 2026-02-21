@@ -14,5 +14,7 @@
 
 - what is closure?
 
+- what are the feature we got in Js after ES6?
+
 ## Bonus "Trap" Questions (Interviewers Love These)
 

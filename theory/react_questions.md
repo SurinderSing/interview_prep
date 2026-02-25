@@ -42,7 +42,7 @@
 
 - Why doesn't useRef cause re-render?
 
-- Is Context a state management tool?
+- Is useContext a state management tool?
 
 - Why are Error Boundaries class-only?
 

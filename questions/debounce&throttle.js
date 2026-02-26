@@ -1,9 +1,7 @@
 function debounce(fn, delay) {
     let timeout;
     return function (...args) {
-        if (timeout) {
-            return clearTimeout(timeout)
-        }
+        clearTimeout(timeout)
         timeout = setTimeout(() => {
             fn(...args)
         }, delay);

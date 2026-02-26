@@ -1,5 +1,7 @@
 # React.js Questions
 
+- what is profiler in react?
+
 - what is custom hook?
 
 - why pure functions are importent in react?

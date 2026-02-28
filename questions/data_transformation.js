@@ -15,7 +15,7 @@ let inputOrders = [
 // ]
 
 
-const sumCommanOrdersAmmount = (orders) => {
+const sumCommonOrdersAmmount = (orders) => {
     let map = new Map();
     for (let i = 0; i < orders.length; i++) {
         let order = orders[i]
@@ -35,4 +35,4 @@ const sumCommanOrdersAmmount = (orders) => {
     return [...map.values()];
 }
 
-console.log(sumCommanOrdersAmmount(inputOrders));
+console.log(sumCommonOrdersAmmount(inputOrders));
